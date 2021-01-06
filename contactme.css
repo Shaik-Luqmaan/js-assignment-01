@@ -1,0 +1,51 @@
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+.contactForm {
+    padding: 60px;
+}
+
+.contactForm .inputBox {
+
+    width: auto;
+    color: black;
+    font-weight: 600;
+    font-family: 'Arimo', sans-serif;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox textarea,
+.contactForm .inputBox input { 
+     width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    resize: both;
+}
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      'top-box-a';
+  }
+  .container h1 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1px;
+    color: black;
+  }
+.top-box {
+    background: var(--primary);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: var(--shadow);
+}

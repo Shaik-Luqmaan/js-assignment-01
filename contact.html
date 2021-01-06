@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Contact</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Nav bar -->
+<nav class="main-nav">
+    <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="aboutme.html">About</a>
+        </li>
+        <li>
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="galleryAdmin.html">Gallery Admin</a>
+        </li>
+      </ul>
+</nav>
+
+<section class="container">
+  <div class="top-box top-box-a">
+      <h1>Contact Me</h1>
+      <div class="contactForm">
+        <form id="form">
+            <div class="inputBox">
+            <div id="error"></div>
+            </div>
+            <div class="inputBox">
+                <label for="fName">Full Name</label>
+                <input id="fName" type="text" required="required">
+            </div>
+            <br>
+            <div class="inputBox">
+              <div id="error"></div>
+            </div>
+            <div class="inputBox">
+                <label for="email">Email</label>
+                <input id="email" type="text">
+            </div>
+            <br>
+            <div class="inputBox">
+                <label for="message">Message</label>
+                <textarea id="message"></textarea>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="submit" value="Send" required="required">
+            </div>  
+            <script src="validation.js"></script>
+        </form>
+    </div>
+    </div>
+
+</div>
+
+</body>
+</html>
